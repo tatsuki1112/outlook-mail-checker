@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"mailSendAlert",
+    "description":"",
+    "version":"0.10",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://outlook.office.com/mail/*"
+            ],
+            "css":[
+                "style.css"
+            ],
+            "js": [
+                "jquery.js",
+                "mailSendAlert.js"
+            ]
+        }
+    ]
+}

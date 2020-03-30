@@ -1,0 +1,39 @@
+#buttonTest {
+    background-color: red;
+    width: 70px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bolder;
+}
+
+#test {
+    width:70px;
+    height:35px;
+}
+
+#checkModal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+#checkModalContent{
+  width:500px;
+  background:#fff;
+  margin:15% auto;
+  padding:10px;
+  position:relative;
+  animation:animatetop 0.4s;
+}
+
+.modalLabel {
+    color:black;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
